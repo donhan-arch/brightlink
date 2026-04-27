@@ -14,13 +14,11 @@ body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #333
 a { color: #4B5CE4; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.nav { background: #fff; border-bottom: 3px solid #4B5CE4; position: sticky; top: 0; z-index: 200; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+.nav .nav { background: #fff; border-bottom: 3px solid #4B5CE4; position: relative; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
 .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 110px; display: flex; align-items: center; justify-content: space-between; }
 .nav-inner img { height: 100px; width: auto; display: block; }
 .nav-right { display: flex; align-items: center; gap: 28px; }
-.nav-phone { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #3A3A4A; text-decoration: none; }
-.nav-phone:hover { color: #4B5CE4; text-decoration: none; }
-.nav-phone svg { width: 17px; height: 17px; fill: none; stroke: #E8413A; stroke-width: 2; }
+.nav-phone { display: none; }
 .btn-nav { background: #E8413A; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 11px 24px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-block; }
 .btn-nav:hover { background: #c93530; text-decoration: none; color: #fff; }
 
