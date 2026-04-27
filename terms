@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — brightlink Medical Supply</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #333; background: #fff; line-height: 1.6; }
+a { color: #4B5CE4; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav { background: #fff; border-bottom: 3px solid #4B5CE4; position: relative; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 110px; display: flex; align-items: center; justify-content: space-between; }
+.nav-inner img { height: 100px; width: auto; display: block; }
+.nav-right { display: flex; align-items: center; gap: 28px; }
+.btn-nav { background: #E8413A; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 11px 24px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-block; }
+.btn-nav:hover { background: #c93530; text-decoration: none; color: #fff; }
+
+.page-header { background: #1e2760; padding: 48px 24px; text-align: center; }
+.page-header h1 { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+.page-header p { font-size: 14px; color: rgba(255,255,255,0.6); }
+
+.content { max-width: 800px; margin: 48px auto 80px; padding: 0 24px; }
+.content h2 { font-size: 18px; font-weight: 700; color: #1e2760; margin: 36px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #E8413A; display: inline-block; }
+.content h2:first-child { margin-top: 0; }
+.content p { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 16px; }
+.content ul { margin: 0 0 16px 20px; }
+.content ul li { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 6px; }
+.content .last-updated { font-size: 12px; color: #999; margin-bottom: 36px; padding: 12px 16px; background: #f8f8f8; border-left: 3px solid #4B5CE4; }
+
+.footer { background: #1e2760; padding: 28px 0; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 32px; flex-wrap: wrap; }
+.footer-logo img { height: 55px; width: auto; filter: brightness(0) invert(1); opacity: 0.85; display: block; }
+.footer-contact { display: flex; align-items: center; gap: 20px; }
+.footer-contact a { font-size: 13px; color: rgba(255,255,255,0.6); text-decoration: none; display: flex; align-items: center; gap: 6px; }
+.footer-contact a:hover { color: #fff; text-decoration: none; }
+.footer-contact svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
+.footer-divider { width: 1px; height: 14px; background: rgba(255,255,255,0.2); }
+.footer-links { display: flex; align-items: center; gap: 16px; }
+.footer-links a { font-size: 12px; color: rgba(255,255,255,0.4); text-decoration: none; }
+.footer-links a:hover { color: #fff; text-decoration: none; }
+.footer-links span { color: rgba(255,255,255,0.2); }
+.footer-copy { font-size: 11px; color: rgba(255,255,255,0.3); }
+
+@media (max-width: 600px) {
+  .nav-phone { display: none; }
+  .footer-inner { flex-direction: column; text-align: center; }
+  .page-header h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html"><img src="https://cdn.shopify.com/s/files/1/0710/7103/9571/files/brightlink_logo_transparent.png?v=1777054234" alt="brightlink Medical Supply"></a>
+    <div class="nav-right">
+      <a href="index.html" class="btn-nav">Back to Home</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Terms of Service</h1>
+  <p>Please read these terms carefully before using our services</p>
+</div>
+
+<div class="content">
+  <p class="last-updated">Last updated: April 26, 2026</p>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By accessing or using the brightlink Medical Supply website and submitting an inquiry, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.</p>
+
+  <h2>2. About Our Services</h2>
+  <p>brightlink Medical Supply provides surgical and disposable medical supply products to doctor offices, dental practices, med spas, medical facilities, and other healthcare-related businesses. Our website serves as an inquiry platform where potential customers can request pricing and availability information.</p>
+
+  <h2>3. Inquiry Submissions</h2>
+  <p>When you submit an inquiry through our website, you agree that:</p>
+  <ul>
+    <li>The information you provide is accurate and complete</li>
+    <li>You are authorized to make purchasing decisions for your business</li>
+    <li>You consent to being contacted by a brightlink team member via email or phone</li>
+    <li>Submitting an inquiry does not constitute a binding purchase order</li>
+  </ul>
+
+  <h2>4. No Warranty</h2>
+  <p>Our website and its content are provided "as is" without any warranties, express or implied. brightlink Medical Supply does not warrant that the website will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
+  <p>Product availability and pricing are subject to change without notice. All pricing provided in response to inquiries is a quote only and is not binding until confirmed in writing.</p>
+
+  <h2>5. Product Information</h2>
+  <p>We make every effort to ensure product information is accurate. However, we do not guarantee that product descriptions, specifications, or other content on our website is complete, accurate, or current. Product images are for illustrative purposes only.</p>
+
+  <h2>6. Limitation of Liability</h2>
+  <p>To the fullest extent permitted by law, brightlink Medical Supply shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our website or services, even if we have been advised of the possibility of such damages.</p>
+
+  <h2>7. Intellectual Property</h2>
+  <p>All content on this website, including text, graphics, logos, and images, is the property of brightlink Medical Supply and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.</p>
+
+  <h2>8. Third-Party Links</h2>
+  <p>Our website may contain links to third-party websites. These links are provided for your convenience only. brightlink Medical Supply has no control over the content of those sites and accepts no responsibility for them.</p>
+
+  <h2>9. Governing Law</h2>
+  <p>These Terms of Service shall be governed by and construed in accordance with the laws of the State of Michigan, United States, without regard to its conflict of law provisions.</p>
+
+  <h2>10. Changes to Terms</h2>
+  <p>We reserve the right to modify these Terms of Service at any time. Changes will be posted on this page with an updated date. Your continued use of our website after any changes constitutes your acceptance of the new terms.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions about these Terms of Service, please contact us:</p>
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:sales@brightlinksupply.com">sales@brightlinksupply.com</a></li>
+    <li><strong>Phone:</strong> <a href="tel:+12485717680">(248) 571-7680</a></li>
+    <li><strong>Location:</strong> Michigan, United States</li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo"><img src="https://cdn.shopify.com/s/files/1/0710/7103/9571/files/brightlink_logo_transparent.png?v=1777054234" alt="brightlink Medical Supply"></div>
+    <div class="footer-contact">
+      <a href="tel:+12485717680"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>(248) 571-7680</a>
+      <div class="footer-divider"></div>
+      <a href="mailto:sales@brightlinksupply.com"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>sales@brightlinksupply.com</a>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><span>|</span>
+      <a href="privacy-policy.html">Privacy Policy</a><span>|</span>
+      <a href="terms.html">Terms of Service</a><span>|</span>
+      <a href="shipping.html">Shipping Policy</a>
+    </div>
+    <p class="footer-copy">© 2026 brightlink Medical Supply. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
