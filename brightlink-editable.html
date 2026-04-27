@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>brightlink Medical Supply</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- ============================================
+     EDIT YOUR CONTENT HERE — CHANGE ANYTHING!
+     ============================================ -->
+<script>
+var SITE = {
+  // Contact Info
+  phone:        "(248) 571-7680",
+  phoneLink:    "tel:+12485717680",
+  email:        "sales@brightlinksupply.com",
+  hours:        "Mon–Fri, 9am–6pm EST",
+  hoursLong:    "Business hours: Monday – Friday, 9:00 AM – 6:00 PM Eastern Time",
+
+  // Top Red Bar
+  promo:        "Free shipping on orders $350+* — Learn more",
+
+  // Nav
+  navCta:       "Request a Quote",
+  logo:         "https://cdn.shopify.com/s/files/1/0710/7103/9571/files/brightlink_logo_transparent.png?v=1777054234",
+
+  // Hero
+  heroEyebrow:  "Now Accepting New Customers",
+  heroLine1:    "Surgical & Disposable Supplies",
+  heroLine2:    "Delivered to Your Door",
+  heroText:     "Quality medical supplies for medspas, doctor offices and dental practices. Tell us what you need — our team will respond within 1 business day.",
+  heroCta:      "Submit an Inquiry",
+
+  // Trust Strip (3 items)
+  trust1Title:  "Quality Products",
+  trust1Sub:    "Sourced from trusted manufacturers",
+  trust2Title:  "Fast Shipping",
+  trust2Sub:    "Shipped within 1-3 business days",
+  trust3Title:  "Real People, Real Help",
+  trust3Sub:    "No bots — talk to a specialist",
+
+  // Info Section
+  infoHeading:  "Get in Touch With Our Team",
+  infoText:     "Whether you're a medspa, doctor's office, or dental practice — fill out the inquiry form and a brightlink specialist will reach out with personalized product recommendations, pricing, and availability. No pressure, no obligation.",
+
+  // Why List (4 reasons)
+  why1Title:    "Response within 1 business day",
+  why1Text:     "We review every inquiry personally and respond quickly with the information you need.",
+  why2Title:    "Custom and bulk pricing available",
+  why2Text:     "Need ongoing supplies? We offer competitive pricing for recurring orders and larger quantities.",
+  why3Title:    "We'll help you find the right product",
+  why3Text:     "Not sure exactly what you need? Describe your situation and we'll guide you to the best option.",
+  why4Title:    "Quality certified products only",
+  why4Text:     "Every product in our catalog meets strict quality standards — no compromises.",
+
+  // Form
+  formTitle:    "Submit Your Inquiry",
+  formSub:      "Fields marked with * are required. We'll respond within 1 business day.",
+  submitBtn:    "Submit Inquiry",
+  formFine:     "Your information is kept private and will never be sold or shared. By submitting you agree to be contacted by a brightlink team member.",
+
+  // Footer
+  footerCopy:   "© 2026 brightlink Medical Supply. All Rights Reserved."
+}
+</script>
+<!-- ============================================
+     STOP EDITING — DO NOT CHANGE BELOW
+     ============================================ -->
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #333; background: #fff; line-height: 1.6; }
+a { color: #4B5CE4; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.util-bar { background: #E8413A; padding: 8px 0; }
+.util-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+.util-promo { font-size: 12px; color: #fff; font-weight: 600; }
+.util-links { display: flex; list-style: none; }
+.util-links li { border-left: 1px solid rgba(255,255,255,0.35); }
+.util-links li:first-child { border-left: none; }
+.util-links a { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #fff; padding: 0 14px; font-weight: 400; }
+.util-links a:hover { opacity: 0.8; text-decoration: none; }
+.util-links svg { width: 12px; height: 12px; fill: none; stroke: #fff; stroke-width: 2; }
+
+.nav { background: #fff; border-bottom: 3px solid #4B5CE4; position: sticky; top: 0; z-index: 200; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 110px; display: flex; align-items: center; justify-content: space-between; }
+.nav-inner img { height: 100px; width: auto; display: block; }
+.nav-right { display: flex; align-items: center; gap: 28px; }
+.nav-phone { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #3A3A4A; text-decoration: none; }
+.nav-phone:hover { color: #4B5CE4; text-decoration: none; }
+.nav-phone svg { width: 17px; height: 17px; fill: none; stroke: #E8413A; stroke-width: 2; }
+.nav-hours { font-size: 12px; color: #888; }
+.btn-nav { background: #E8413A; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 11px 24px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-block; }
+.btn-nav:hover { background: #c93530; text-decoration: none; color: #fff; }
+
+.hero { background: #1e2760; background-image: radial-gradient(ellipse at 70% 50%, rgba(75,92,228,0.4) 0%, transparent 65%), radial-gradient(ellipse at 20% 80%, rgba(232,65,58,0.15) 0%, transparent 50%); padding: 72px 24px; text-align: center; position: relative; overflow: hidden; }
+.hero::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; }
+.hero-inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
+.hero-eyebrow { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #E8413A; background: rgba(232,65,58,0.12); border: 1px solid rgba(232,65,58,0.35); padding: 5px 14px; border-radius: 2px; margin-bottom: 22px; }
+.hero h1 { font-size: 42px; font-weight: 800; color: #fff; line-height: 1.15; margin-bottom: 18px; }
+.hero h1 span { color: #E8413A; }
+.hero p { font-size: 16px; font-weight: 300; color: rgba(255,255,255,0.75); line-height: 1.75; max-width: 520px; margin: 0 auto 32px; }
+.hero-cta { display: inline-block; background: #E8413A; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 14px 34px; border-radius: 2px; border: none; cursor: pointer; text-decoration: none; }
+.hero-cta:hover { background: #c93530; text-decoration: none; color: #fff; }
+
+.trust-strip { background: #f8f8f8; border-bottom: 1px solid #e2e2e2; border-top: 1px solid #e2e2e2; padding: 20px 24px; }
+.trust-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: center; }
+.trust-item { display: flex; align-items: center; gap: 12px; padding: 0 36px; border-right: 1px solid #ddd; }
+.trust-item:last-child { border-right: none; }
+.trust-icon { width: 40px; height: 40px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.trust-icon svg { width: 36px; height: 36px; fill: none; stroke: #4B5CE4; stroke-width: 1.5; }
+.trust-text strong { display: block; font-size: 13px; font-weight: 700; color: #1e2760; }
+.trust-text span { font-size: 12px; color: #777; }
+
+.breadcrumb { background: #fff; border-bottom: 1px solid #e9e9e9; padding: 10px 0; }
+.breadcrumb-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; font-size: 12px; color: #888; }
+.breadcrumb-inner a { color: #4B5CE4; }
+.breadcrumb-inner span { margin: 0 6px; }
+
+.page-wrap { max-width: 1200px; margin: 36px auto 60px; padding: 0 24px; display: grid; grid-template-columns: 1fr 420px; gap: 40px; align-items: start; }
+
+.info-col h2 { font-size: 26px; font-weight: 700; color: #1e2760; margin-bottom: 10px; }
+.section-rule { width: 48px; height: 3px; background: #E8413A; margin-bottom: 18px; border-radius: 2px; }
+.info-col > p { font-size: 14px; color: #555; line-height: 1.75; margin-bottom: 28px; }
+.why-list { list-style: none; margin-bottom: 36px; }
+.why-list li { display: flex; align-items: flex-start; gap: 13px; padding: 14px 0; border-bottom: 1px solid #efefef; }
+.why-list li:first-child { border-top: 1px solid #efefef; }
+.why-check { width: 22px; height: 22px; background: #4B5CE4; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+.why-check svg { width: 11px; height: 11px; fill: none; stroke: #fff; stroke-width: 2.5; }
+.why-text h3 { font-size: 13px; font-weight: 700; color: #1e2760; margin-bottom: 2px; }
+.why-text p { font-size: 13px; color: #666; line-height: 1.5; }
+
+.contact-box { background: #f4f5fc; border: 1px solid #d5d8f5; border-left: 4px solid #4B5CE4; padding: 24px; margin-bottom: 28px; }
+.contact-box h3 { font-size: 14px; font-weight: 700; color: #1e2760; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 16px; }
+.contact-row { display: flex; align-items: center; gap: 11px; margin-bottom: 13px; font-size: 13px; }
+.contact-row:last-child { margin-bottom: 0; }
+.contact-row svg { width: 16px; height: 16px; fill: none; stroke: #4B5CE4; stroke-width: 2; flex-shrink: 0; }
+.contact-row strong { color: #1e2760; font-weight: 700; }
+.contact-row a { color: #4B5CE4; font-weight: 600; }
+.hours-note { background: #fff; border: 1px solid #e2e2e2; padding: 14px 18px; font-size: 12px; color: #666; display: flex; align-items: center; gap: 8px; }
+.hours-note svg { width: 14px; height: 14px; fill: none; stroke: #E8413A; stroke-width: 2; flex-shrink: 0; }
+
+.form-box { background: #fff; border: 1px solid #ddd; border-top: 3px solid #4B5CE4; }
+.form-box-header { background: #f4f5fc; padding: 18px 24px; border-bottom: 1px solid #ddd; }
+.form-box-header h3 { font-size: 16px; font-weight: 700; color: #1e2760; margin-bottom: 2px; }
+.form-box-header p { font-size: 12px; color: #777; }
+.form-body { padding: 24px; }
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 12px; font-weight: 700; color: #333; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px; }
+.form-group label .req { color: #E8413A; margin-left: 2px; }
+.form-group input, .form-group select, .form-group textarea { font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333; width: 100%; padding: 9px 11px; border: 1px solid #ccc; border-radius: 2px; background: #fafafa; outline: none; transition: border-color 0.2s; appearance: none; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #4B5CE4; background: #fff; box-shadow: 0 0 0 3px rgba(75,92,228,0.1); }
+.form-group input::placeholder, .form-group textarea::placeholder { color: #bbb; }
+.form-group select { background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23777' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-color: #fafafa; padding-right: 30px; cursor: pointer; }
+.form-group textarea { min-height: 100px; resize: vertical; line-height: 1.6; }
+.form-divider { border: none; border-top: 1px solid #eee; margin: 8px 0 18px; }
+.form-fine { font-size: 11px; color: #999; margin-bottom: 18px; line-height: 1.6; }
+.btn-submit { width: 100%; background: #4B5CE4; color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 14px; border: none; border-radius: 2px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.btn-submit:hover { background: #3447C8; }
+.btn-submit svg { width: 15px; height: 15px; fill: none; stroke: #fff; stroke-width: 2; }
+.form-secure { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 12px; font-size: 11px; color: #aaa; }
+.form-secure svg { width: 12px; height: 12px; fill: none; stroke: #aaa; stroke-width: 2; }
+
+.success-state { display: none; padding: 48px 24px; text-align: center; }
+.success-circle { width: 64px; height: 64px; border-radius: 50%; background: #eaf7ef; border: 2px solid #2B9958; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+.success-circle svg { width: 28px; height: 28px; fill: none; stroke: #2B9958; stroke-width: 2.5; }
+.success-state h3 { font-size: 18px; font-weight: 700; color: #1e2760; margin-bottom: 10px; }
+.success-state p { font-size: 13px; color: #666; line-height: 1.7; }
+
+.footer { background: #1e2760; padding: 28px 0; }
+.footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 32px; flex-wrap: wrap; }
+.footer-logo img { height: 55px; width: auto; filter: brightness(0) invert(1); opacity: 0.85; display: block; }
+.footer-contact { display: flex; align-items: center; gap: 20px; }
+.footer-contact a { font-size: 13px; color: rgba(255,255,255,0.6); text-decoration: none; display: flex; align-items: center; gap: 6px; }
+.footer-contact a:hover { color: #fff; text-decoration: none; }
+.footer-contact svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
+.footer-divider { width: 1px; height: 14px; background: rgba(255,255,255,0.2); }
+.footer-links { display: flex; align-items: center; gap: 16px; }
+.footer-links a { font-size: 12px; color: rgba(255,255,255,0.4); text-decoration: none; }
+.footer-links a:hover { color: #fff; text-decoration: none; }
+.footer-links span { color: rgba(255,255,255,0.2); }
+.footer-copy { font-size: 11px; color: rgba(255,255,255,0.3); }
+
+@media (max-width: 900px) {
+  .page-wrap { grid-template-columns: 1fr; }
+  .trust-inner { flex-wrap: wrap; }
+  .trust-item { padding: 12px 18px; border-right: none; border-bottom: 1px solid #ddd; width: 50%; }
+}
+@media (max-width: 600px) {
+  .util-inner { flex-direction: column; gap: 6px; }
+  .hero h1 { font-size: 28px; }
+  .hero { padding: 48px 20px; }
+  .page-wrap { padding: 0 16px; margin-top: 24px; }
+  .form-row-2 { grid-template-columns: 1fr; }
+  .nav-hours { display: none; }
+  .footer-inner { flex-direction: column; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<div class="util-bar">
+  <div class="util-inner">
+    <p class="util-promo" id="s-promo"></p>
+    <ul class="util-links">
+      <li><a id="s-phone-link1" href="#"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>Call <span id="s-phone1"></span></a></li>
+      <li><a id="s-email-link1" href="#"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Email Us</a></li>
+      <li><a href="javascript:void(0)" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>Get a Quote</a></li>
+    </ul>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/"><img id="s-logo" src="" alt="brightlink Medical Supply"></a>
+    <div class="nav-right">
+      <a id="s-phone-link2" href="#" class="nav-phone"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg><span id="s-phone2"></span></a>
+      <span class="nav-hours" id="s-hours"></span>
+      <a href="javascript:void(0)" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})" class="btn-nav" id="s-nav-cta"></a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow" id="s-eyebrow"></div>
+    <h1 id="s-h1"></h1>
+    <p id="s-hero-text"></p>
+    <a href="javascript:void(0)" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})" class="hero-cta" id="s-hero-cta"></a>
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#4B5CE4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></div>
+      <div class="trust-text"><strong id="s-t1t"></strong><span id="s-t1s"></span></div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#4B5CE4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <div class="trust-text"><strong id="s-t2t"></strong><span id="s-t2s"></span></div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#4B5CE4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+      <div class="trust-text"><strong id="s-t3t"></strong><span id="s-t3s"></span></div>
+    </div>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner"><a href="/">Home</a><span>›</span>Contact Us</div>
+</div>
+
+<div class="page-wrap" id="form">
+  <div class="info-col">
+    <h2 id="s-info-heading"></h2>
+    <div class="section-rule"></div>
+    <p id="s-info-text"></p>
+    <ul class="why-list" id="s-why-list"></ul>
+    <div class="contact-box">
+      <h3>Direct Contact</h3>
+      <div class="contact-row"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg><div><strong>Phone: </strong><a id="s-phone-link3" href="#"><span id="s-phone3"></span></a></div></div>
+      <div class="contact-row"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><div><strong>Email: </strong><a id="s-email-link2" href="#"><span id="s-email2"></span></a></div></div>
+    </div>
+    <div class="hours-note"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span id="s-hours-long"></span></div>
+  </div>
+
+  <div class="form-col">
+    <div class="form-box" id="inquiry-box">
+      <div class="form-box-header">
+        <h3 id="s-form-title"></h3>
+        <p id="s-form-sub"></p>
+      </div>
+      <div class="form-body" id="form-body">
+        <form onsubmit="handleSubmit(event)">
+          <div class="form-row-2">
+            <div class="form-group"><label>First Name <span class="req">*</span></label><input type="text" placeholder="Jane" required></div>
+            <div class="form-group"><label>Last Name <span class="req">*</span></label><input type="text" placeholder="Smith" required></div>
+          </div>
+          <div class="form-group"><label>Email Address <span class="req">*</span></label><input type="email" placeholder="jane@example.com" required></div>
+          <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(555) 000-0000"></div>
+          <div class="form-group"><label>I Am A <span class="req">*</span></label>
+            <select required>
+              <option value="" disabled selected>Select one...</option>
+              <option>Doctor's Office</option>
+              <option>MedSpa</option>
+              <option>Dental Office</option>
+              <option>Medical Facility / Clinic</option>
+              <option>Hospital</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label>What Are You Looking For? <span class="req">*</span></label>
+            <select required>
+              <option value="" disabled selected>Select a category...</option>
+              <option>Gloves &amp; PPE</option>
+              <option>Wound Care &amp; Dressings</option>
+              <option>Syringes &amp; Needles</option>
+              <option>Surgical Drapes &amp; Gowns</option>
+              <option>Home Care Supplies</option>
+              <option>Diagnostic Tools</option>
+              <option>Multiple Categories</option>
+              <option>Not Sure — Need Help</option>
+            </select>
+          </div>
+          <div class="form-group"><label>Additional Details</label><textarea placeholder="Describe what you need — product names, quantities, how often you need them, or anything that helps us find the right products for you."></textarea></div>
+          <hr class="form-divider">
+          <p class="form-fine" id="s-form-fine"></p>
+          <button type="submit" class="btn-submit"><svg viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg><span id="s-submit-btn"></span></button>
+          <div class="form-secure"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg><span>256-bit SSL encrypted — your data is safe</span></div>
+        </form>
+      </div>
+      <div class="success-state" id="success-state">
+        <div class="success-circle"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>Inquiry Submitted!</h3>
+        <p>Thank you for reaching out to brightlink Medical Supply.<br>A specialist will contact you within 1 business day.<br><br>Need immediate help? Call <a id="s-phone-link4" href="#"><span id="s-phone4"></span></a> or email <a id="s-email-link3" href="#"><span id="s-email3"></span></a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo"><img id="s-logo2" src="" alt="brightlink Medical Supply"></div>
+    <div class="footer-contact">
+      <a id="s-phone-link5" href="#"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg><span id="s-phone5"></span></a>
+      <div class="footer-divider"></div>
+      <a id="s-email-link4" href="#"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span id="s-email4"></span></a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a><span>|</span>
+      <a href="#">Terms of Service</a><span>|</span>
+      <a href="#">Shipping Policy</a>
+    </div>
+    <p class="footer-copy" id="s-footer-copy"></p>
+  </div>
+</footer>
+
+<script>
+// Populate all content from SITE object
+document.getElementById('s-promo').textContent = SITE.promo;
+document.getElementById('s-logo').src = SITE.logo;
+document.getElementById('s-logo2').src = SITE.logo;
+document.getElementById('s-phone1').textContent = SITE.phone;
+document.getElementById('s-phone2').textContent = SITE.phone;
+document.getElementById('s-phone3').textContent = SITE.phone;
+document.getElementById('s-phone4').textContent = SITE.phone;
+document.getElementById('s-phone5').textContent = SITE.phone;
+document.getElementById('s-phone-link1').href = SITE.phoneLink;
+document.getElementById('s-phone-link2').href = SITE.phoneLink;
+document.getElementById('s-phone-link3').href = SITE.phoneLink;
+document.getElementById('s-phone-link4').href = SITE.phoneLink;
+document.getElementById('s-phone-link5').href = SITE.phoneLink;
+document.getElementById('s-email2').textContent = SITE.email;
+document.getElementById('s-email3').textContent = SITE.email;
+document.getElementById('s-email4').textContent = SITE.email;
+document.getElementById('s-email-link1').href = 'mailto:' + SITE.email;
+document.getElementById('s-email-link2').href = 'mailto:' + SITE.email;
+document.getElementById('s-email-link3').href = 'mailto:' + SITE.email;
+document.getElementById('s-email-link4').href = 'mailto:' + SITE.email;
+document.getElementById('s-hours').textContent = SITE.hours;
+document.getElementById('s-hours-long').textContent = SITE.hoursLong;
+document.getElementById('s-nav-cta').textContent = SITE.navCta;
+document.getElementById('s-eyebrow').textContent = SITE.heroEyebrow;
+document.getElementById('s-h1').innerHTML = SITE.heroLine1 + '<br><span>' + SITE.heroLine2 + '</span>';
+document.getElementById('s-hero-text').textContent = SITE.heroText;
+document.getElementById('s-hero-cta').textContent = SITE.heroCta;
+document.getElementById('s-t1t').textContent = SITE.trust1Title;
+document.getElementById('s-t1s').textContent = SITE.trust1Sub;
+document.getElementById('s-t2t').textContent = SITE.trust2Title;
+document.getElementById('s-t2s').textContent = SITE.trust2Sub;
+document.getElementById('s-t3t').textContent = SITE.trust3Title;
+document.getElementById('s-t3s').textContent = SITE.trust3Sub;
+document.getElementById('s-info-heading').textContent = SITE.infoHeading;
+document.getElementById('s-info-text').textContent = SITE.infoText;
+document.getElementById('s-form-title').textContent = SITE.formTitle;
+document.getElementById('s-form-sub').textContent = SITE.formSub;
+document.getElementById('s-form-fine').textContent = SITE.formFine;
+document.getElementById('s-submit-btn').textContent = SITE.submitBtn;
+document.getElementById('s-footer-copy').textContent = SITE.footerCopy;
+
+var whyItems = [
+  {title: SITE.why1Title, text: SITE.why1Text},
+  {title: SITE.why2Title, text: SITE.why2Text},
+  {title: SITE.why3Title, text: SITE.why3Text},
+  {title: SITE.why4Title, text: SITE.why4Text}
+];
+var whyList = document.getElementById('s-why-list');
+whyItems.forEach(function(item) {
+  var li = document.createElement('li');
+  li.innerHTML = '<div class="why-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></div><div class="why-text"><h3>' + item.title + '</h3><p>' + item.text + '</p></div>';
+  whyList.appendChild(li);
+});
+
+function handleSubmit(e) {
+  e.preventDefault();
+  document.getElementById('form-body').style.display = 'none';
+  document.getElementById('success-state').style.display = 'block';
+  document.getElementById('inquiry-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+
+</body>
+</html>
