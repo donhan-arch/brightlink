@@ -281,7 +281,7 @@ a:hover { text-decoration: underline; }
         <p id="s-form-sub"></p>
       </div>
       <div class="form-body" id="form-body">
-        <form onsubmit="handleSubmit(event)">
+        <form action="https://formspree.io/f/mwvajbwz" method="POST">
           <div class="form-row-2">
             <div class="form-group"><label>First Name <span class="req">*</span></label><input type="text" placeholder="Jane" required></div>
             <div class="form-group"><label>Last Name <span class="req">*</span></label><input type="text" placeholder="Smith" required></div>
@@ -401,12 +401,7 @@ whyItems.forEach(function(item) {
   whyList.appendChild(li);
 });
 
-function handleSubmit(e) {
-  e.preventDefault();
-  document.getElementById('form-body').style.display = 'none';
-  document.getElementById('success-state').style.display = 'block';
-  document.getElementById('inquiry-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+
 </script>
 
 </body>
