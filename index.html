@@ -398,11 +398,9 @@ var whyList = document.getElementById('s-why-list');
 whyItems.forEach(function(item) {
   var li = document.createElement('li');
   li.innerHTML = '<div class="why-check"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5"/></svg></div><div class="why-text"><h3>' + item.title + '</h3><p>' + item.text + '</p></div>';
-  whyList.appendChild(li);
+whyList.appendChild(li);
 });
 
-
-</script>
 async function blSubmit(e) {
   e.preventDefault();
   var form = e.target;
@@ -423,5 +421,6 @@ async function blSubmit(e) {
   }
 }
 </script>
+
 </body>
 </html>
